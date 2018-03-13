@@ -4,7 +4,7 @@ if (!play) {
   window.alert('Refresh the page and try again')
 } else {
   play = play.trim().toLowerCase()
-  if (play === 'no' || play !== 'yes') {
+  if (play !== 'yes') {
     window.alert('bummer :(, you either didn\'t reply with \'yes\' or \'no\', or you just chose \'no\'. Refesh the page if you change your mind.')
   } else if (play === 'yes') {
     var question = window.prompt('Awesome! I\'m thinking of a number between one and three. What is the number?')
